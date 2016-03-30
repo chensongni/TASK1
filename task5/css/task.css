@@ -1,0 +1,147 @@
+body{
+    font-family: "microsoft yahei ";
+    margin: 0px;
+    background-color: #dedede;
+}
+header{
+    background-color: #333333;
+    display: block;
+}
+header:after{
+    content:"\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+header .logo {
+    float: left;
+   max-height: 48px;
+    margin: 10px 40px 3px 40px;
+}
+.header-nav{
+    float: right;
+    display: inline-block;
+    list-style: disc;
+}
+.header-nav li{
+    display: inline;
+    float: left;
+    margin-left: 2em;
+}
+.header-nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 1em;
+}
+.passage,.picture,aside{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px #999999;
+}
+.overflow{
+    overflow: hidden;
+}
+.passage img{
+    max-width: 350px;
+}
+.passage ul{
+    list-style: none;
+}
+figcaption{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+figure{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px;
+     float: left;
+}
+section img{
+    max-width: 100px;
+}
+section:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+h3{
+    font-size: 1em;
+    color: #777;
+}
+.author-time{
+    color: #999;
+    font-size: 0.8em;
+}
+ol{
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+thead {
+    background-color: #333;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+tfoot{
+    background-color: #ccc;
+    font-weight: bold;
+}
+th,td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.hint{
+    font-size: 0.7em;
+    color: #999;
+}
+.form-block{
+    display: inline-block;
+    vertical-align:text-top;
+}
+.side {
+    font-size: 1em;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+}
+.title{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-right: 1em;
+    margin-top: 0.7em;
+}
+textarea{
+    vertical-align: text-top;
+    width:60%;
+    height: 10em;
+}
+.form-submit{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #35d;
+    border-radius: 10px;
+}
+aside{
+    float: right;
+    width: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}

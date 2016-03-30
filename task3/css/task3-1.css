@@ -1,0 +1,46 @@
+.container,.team-log,.team-member,.team-content,img {
+    border: 1px solid #999;
+}
+.team-log{
+    float: left;
+    width: 200px;
+}
+.team-member{
+    float: right;
+    width: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.team-log img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+.team-log p{
+    float: right;
+    font-size: 35px;
+    margin-top:20px;
+    margin-right: 20px;
+}
+.container:after{
+    content: "\00B";
+    display:block;
+    clear: both;
+    height: 0;
+}
+.team-member img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.container{
+    padding: 20px;
+    min-width: 400px;
+}
+.team-content{
+    padding: 20px;
+    margin: 0 140px 0 220px;
+}
+.team-content p{
+    word-break: break-all;
+}
