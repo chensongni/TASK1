@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:892px;
+    height:1386px;
+    background-color: #fff;
+    margin:0 auto;
+    padding:0 44px 0 44px;
+}
+.navigation{
+    width: 892px;
+    border-bottom: 2px solid #938e8c;
+}
+.logo{
+    width: 100px;
+    height: 61px;
+    float: left;
+    background-color:red;
+}
+.logo p{
+    position: relative;
+    left: 4px;
+    top: 45px;
+    font-size: 12px;
+    font-family: 黑体;
+    color: #ffffff;
+}
+time{
+    float: right;
+    color: #d45d5c;
+    font-size: 12px;
+    font-family: 黑体;
+    margin-top: 45px;
+}
+.navigation:after,.box-head:after,.www:after,.content:after,.under:after{
+    display: block;
+    content: "\00B";
+    height: 0;
+    clear: both;
+}
+.img{
+    float: left;
+    background-image:url(tt1.jpg);
+    background-size: 641px 301px;
+    width: 641px;
+    height: 301px;
+    margin-top: 40px;
+}
+.green{
+    float: left;
+    width: 191px;
+    height: 301px;
+    background-color: green;
+    opacity: 0.3;
+}
+.red{
+    float: right;
+    width: 191px;
+    height: 301px;
+    background-color: red;
+    opacity: 0.3;
+}
+.about{
+    float: right;
+    width: 203px;
+    height: 301px;
+     margin-top: 40px;
+    border-top: 2px solid #cc8091;
+}
+.box-head{
+    width: 892px;
+    margin: 0 auto;
+}
+.big{
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.small{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #676767;
+    line-height: 10px;
+}
+.seven{
+    font-size: 116px;
+    color: #75b86b;
+    font-family: "Microsoft YaHei";
+    font-style: italic;
+    position: relative;
+    left: -16px;
+}
+.three{
+    font-size: 55px;
+    color: #cc8091;
+    font-family: "Microsoft YaHei";
+    position: relative;
+}
+.css{
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    color: #cc8091;
+    position: relative;
+    bottom: 15px;
+}.csss{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #cc8091;
+    position: relative;
+    left: 85px;
+    bottom: 30px;
+ }
+ .www{
+     margin: 30px 0;
+ }
+ .what{
+     width: 25%;
+     float: left;
+     font-size: 12px;
+     color: #767777;
+     font-family: 宋体;
+     line-height: 16px;
+     margin:40px 20px 40px 0;
+ }
+ h2{
+    font-family: "Microsoft YaHei";
+     font-size: 16px;
+     text-decoration: underline;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+ .what-h2{
+     color: #418c59;
+ }
+ .when-h2{
+     color:#d2994f;
+ }
+ .how-h2{
+     color: #cc7680;
+ }
+ .what .pp{
+     line-height: 180%;
+ }
+ .percent{
+     margin-top: 50px;
+     width: 50%;
+     color: #231815;
+     font-family: "Microsoft YaHei";
+     font-size: 12px;
+     line-height: 16px;
+     opacity: 0.7;
+     filter:alpha(opacity=70);
+ }
+ .percent span{
+     color: #cd4a48;
+     font-style: italic;
+ }
+ .left{
+     float: left;
+     width: 415px;
+     margin: 30px 10px 0 0;
+ }
+ .tech1{
+     font-size: 42px;
+     color: #11456b;
+     font-family: 黑体;
+     line-height: 100%;
+
+ }
+ .tech1 span{
+     font-size: 72px;
+     color: #f5e327;
+     font-family: 黑体;
+     font-weight: bold;
+     font-style: italic;
+ }
+ .tech2{
+     font-size: 33px;
+     color: #11456b;
+     font-family: 黑体;
+     font-weight: bold;
+ }
+ .artical{
+     border-top: 2px solid #11456b;
+     margin-top: 10px;
+     padding-top: 20px;
+ }
+ .artical span{
+     margin:0 10px 10px 0;
+     line-height: 70px;
+     font-size: 70px;
+     color:#f5e327;
+     font-family: "Microsoft YaHei";
+     float: left;
+ }
+ .artical img{
+     float:right;
+     width:200px;
+     height:300px;
+     overflow: hidden;
+     margin:10px 10px 10px 10px;
+ }
+ .artical p{
+     float: left;
+     font-size: 12px;
+     color: #767777;
+     font-family: 宋体;
+     line-height: 16px;
+ }
+ .right{
+     float: right;
+     width: 458px;
+ }
+ .image{
+     position: relative;
+     background-image: url("p1.jpg");
+     background-size: 458px 275px;
+     height: 275px;
+ }
+ .bottom1{
+     position: absolute;
+     bottom: 0;
+     background-color: #000;
+     width: 100%;
+     height: 61px;
+     opacity: 0.5;
+ }
+ .bottom2{
+     position: absolute;
+     bottom: 0;
+     height: 44px;
+     margin: 8px 0 9px 40px;
+     border-left: 3px solid #72b16a;
+     line-height: 44px;
+ }
+ .qd .qd1{
+     font-size: 26px;
+     color: #ffffff;
+     font-family: "Microsoft YaHei";
+     margin: 0 10px 0 10px;
+ }
+ .qd .qd2{
+     font-size: 12px;
+     color: #72b16a;
+     font-style: italic;
+     font-family: "Microsoft YaHei";
+     line-height: 140%;
+ }
+ .triangle{
+     border-left:5px solid transparent;
+     border-right:5px solid transparent;
+     border-bottom:8px solid #11456b;
+     position: relative;
+     bottom: 10px;
+ }
+ .under{
+     background-color: RGB(238,238,214);
+     margin-top: 20px;
+ }
+ ul{
+     padding-top: 20px;
+ }
+ li{
+     position: relative;
+     list-style-type: none;
+     font-size: 16px;
+     font-family: 宋体;
+     margin: 16px 25px 0 25px;
+ }
+ .last{
+     font-size: 12px;
+     color: #5a5b5b;
+     font-family: 宋体;
+     font-style: italic;
+     position: absolute;
+     right: 0;
+ }
+.number{
+     float: left;
+    background-color: #e93f33;
+    width: 260px;
+    height: 160px;
+    margin-top: 66px;
+ }
+.zero{
+    font-size: 110px;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    margin-left: 10px;
+}
+.two{
+    float: right;
+    width: 170px;
+    height: 86px;
+    border-left: 2px solid #ffffff;
+    position: relative;
+    top: 35px;
+}
+.four{
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 黑体;
+    font-style: italic;
+    margin:0 0 6px 6px;
+}
+.hw{
+    font-size: 12px;
+    font-family: 黑体;
+    color: #ffffff;
+    line-height: 16px;
+    margin-left: 6px;
+}
+.hello{
+    float: right;
+    width: 160px;
+    height: 160px;
+    margin-top: 66px;
+}
+.world{
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: italic;
+    line-height: 16px;
+}
+.mark-left{
+    float: left;
+    font-size: 72px;
+    color:#d45d5c;
+    font-family: "黑体";
+    margin:0 10px 0 -40px;
+    position: relative;
+    top:15px;
+
+}
+.mark-right{
+    float: right;
+    float: left;
+    font-size: 72px;
+    color:#d45d5c;
+    font-family: "黑体";
+    position: relative;
+    top: 40px;
+    left: 66px;
+    margin-top: -20px;
+}
+footer{
+    width: 892px;
+    margin-top: 40px;
+    height: 60px;
+    border-top: 1px solid #938e8c;
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: 黑体;
+    text-align: right;
+}
